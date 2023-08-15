@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-variant-caps: all-petite-caps;
+}
+.image {
+  background: url(./Component/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: 112%;
+  background-position-x: center;
+  height: 413vw;
+}
+.nav {
+  font-weight: bold;
+  padding: 0px 62px 0px 62px;
+  text-shadow: -7px 12px 6px #3b3e45c4;
+}
+.nav:hover {
+  text-shadow: -7px 12px 6px #b7b7b7c4;
+}
+.info {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 5vw;
+  top: 7vw;
+}
+.btn {
+  position: relative;
+  top: 20px;
+  border: none;
+  border-radius: 50px;
+  background: #362ef0;
+  list-style-type: none;
+  font-weight: bold;
+  color: white;
+  font-size: 2vw;
+  width: 11vw;
+  height: 4vw;
+}
+.btn:hover {
+  background: #d0cce0;
+  color: #362ef0;
+}
+.container {
+  display: grid;
+  grid-gap: 60vw;
+  position: relative;
+  top: 70vw;
+  padding-left: 10vw;
+}
+.col-2,
+.col-4 {
+  position: relative;
+  left: 50vw;
+  bottom: 14vw;
+  padding: 4vw;
+  width: fit-content;
+}
+.col-4 {
+  bottom: 75vw;
+}
+.col-1 h1,
+.col-2 h1,
+.col-3 h1,
+.col-4 h1 {
+  font-size: 8vw;
+}
+.col-1 p,
+.col-2 p,
+.col-3 p,
+.col-4 p {
+  font-size: 2vw;
+}
+
+.note {
+  font-size: 3vw;
+  position: relative;
+  top: 26vw;
+  text-align: center;
+}
+.col-1 {
+  position: relative;
+  padding: 4vw;
+  width: fit-content;
+  animation: animate 5s
+    linear(
+      0 0%,
+      0 2.27%,
+      0.02 4.53%,
+      0.04 6.8%,
+      0.06 9.07%,
+      0.1 11.33%,
+      0.14 13.6%,
+      0.25 18.15%,
+      0.39 22.7%,
+      0.56 27.25%,
+      0.77 31.8%,
+      1 36.35%,
+      0.89 40.9%,
+      0.85 43.18%,
+      0.81 45.45%,
+      0.79 47.72%,
+      0.77 50%,
+      0.75 52.27%,
+      0.75 54.55%,
+      0.75 56.82%,
+      0.77 59.1%,
+      0.79 61.38%,
+      0.81 63.65%,
+      0.85 65.93%,
+      0.89 68.2%,
+      1 72.7%,
+      0.97 74.98%,
+      0.95 77.25%,
+      0.94 79.53%,
+      0.94 81.8%,
+      0.94 84.08%,
+      0.95 86.35%,
+      0.97 88.63%,
+      1 90.9%,
+      0.99 93.18%,
+      0.98 95.45%,
+      0.99 97.73%,
+      1 100%
+    );
+}
+@keyframes animate {
+  from {
+    right: 20vw;
+  }
+  to {
+    right: 0vw;
+  }
+}
+.col-3 {
+  position: relative;
+  padding: 4vw;
+  width: fit-content;
+  bottom: 51vw;
+  animation: animate 5s
+    linear(
+      0 0%,
+      0 2.27%,
+      0.02 4.53%,
+      0.04 6.8%,
+      0.06 9.07%,
+      0.1 11.33%,
+      0.14 13.6%,
+      0.25 18.15%,
+      0.39 22.7%,
+      0.56 27.25%,
+      0.77 31.8%,
+      1 36.35%,
+      0.89 40.9%,
+      0.85 43.18%,
+      0.81 45.45%,
+      0.79 47.72%,
+      0.77 50%,
+      0.75 52.27%,
+      0.75 54.55%,
+      0.75 56.82%,
+      0.77 59.1%,
+      0.79 61.38%,
+      0.81 63.65%,
+      0.85 65.93%,
+      0.89 68.2%,
+      1 72.7%,
+      0.97 74.98%,
+      0.95 77.25%,
+      0.94 79.53%,
+      0.94 81.8%,
+      0.94 84.08%,
+      0.95 86.35%,
+      0.97 88.63%,
+      1 90.9%,
+      0.99 93.18%,
+      0.98 95.45%,
+      0.99 97.73%,
+      1 100%
+    );
+}
+
+.name {
+  text-align: center;
+}
